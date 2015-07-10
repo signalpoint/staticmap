@@ -44,6 +44,6 @@ function staticmap_field_formatter_view(entity_type, entity, field, instance, la
     });
     return content;
   }
-  catch (error) { console.log('telephone_field_formatter_view - ' + error); }
+  catch (error) { console.log('staticmap_field_formatter_view - ' + error); }
 }
 
